@@ -6,7 +6,7 @@ body {
     color: #2E98C0; /* Updated Text color */
 }
 header {
-    background: url('PHARAOHHEADER.jpg') no-repeat center center;
+    background: url('images/pharaohheader.jpeg') no-repeat center center;
     background-size: cover;
     color: #2E98C0;
     padding: 1rem;
