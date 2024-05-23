@@ -4,77 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>I AM PHARAOH</title>
-    <style>
-        body {
-            background-color: #000000; /* Black background */
-            color: #FFFFFF; /* White text */
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-        .header, .footer {
-            background-color: #2C3E50; /* Dark blue */
-            text-align: center;
-            padding: 1em 0;
-        }
-        .header h1, .footer p {
-            margin: 0;
-            color: #F39C12; /* Gold */
-        }
-        .about, .music {
-            padding: 2em;
-            text-align: center;
-        }
-        .about h2, .music h2 {
-            color: #F39C12; /* Gold */
-        }
-        .about p, .music p {
-            color: #1ABC9C; /* Light teal */
-        }
-        .album-art {
-            width: 100%;
-            max-width: 600px;
-            margin: 0 auto;
-        }
-        .music-player {
-            margin: 2em 0;
-        }
-        .merch-link {
-            display: inline-block;
-            margin-top: 1em;
-            padding: 0.5em 1em;
-            background-color: #F39C12; /* Gold */
-            color: black;
-            text-decoration: none;
-            border-radius: 5px;
-            transition: background-color 0.3s ease;
-        }
-        .merch-link:hover {
-            background-color: #E67E22; /* Darker gold */
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="header">
+    <header>
         <h1>I AM PHARAOH</h1>
-    </div>
-    <div class="about">
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#music">Music</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="about">
         <h2>About</h2>
-        <p>Hello! I'm Rebecca, a passionate musician and songwriter. Welcome to my personal webpage where you can explore my music and learn more about me.</p>
-    </div>
-    <div class="music">
-        <h2>My Music</h2>
-        <div class="album-art">
-            <img src="https://postimg.cc/RN0Hs9XW" alt="Album Art" style="width: 100%;">
+        <p>Welcome to the official website of I AM PHARAOH. Stay tuned for the latest music and updates.</p>
+    </section>
+    <section id="music">
+        <h2>Music</h2>
+        <div>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/1PELjEuOaqfS6HQBK2cdQx?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
         </div>
-        <div class="music-player">
-            <!-- Embed your Spotify player here -->
-            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/4Ks27LcIucuBZqwPTVfOTs?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-        </div>
-        <a class="merch-link" href="https://my-store-b88bc4.creator-spring.com/listing/iampharaoh?" target="_blank">Check Out My Merch</a>
-    </div>
-    <div class="footer">
-        <p>&copy; 2024 I AM PHARAOH. All rights reserved.</p>
-    </div>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Get in touch at <a href="info.iampharaoh@gmail.com">contact@iampharaoh.com</a>.</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 I AM PHARAOH</p>
+    </footer>
 </body>
 </html>
